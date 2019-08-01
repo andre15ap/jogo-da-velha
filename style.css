@@ -1,0 +1,138 @@
+body, ul, li, a, p h3 {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;   
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.vez {
+    display: grid;
+    grid-template-columns:  1fr;
+    text-align: center;
+    max-width: 330px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.vez span {
+    min-width: 100px;
+    max-width: 300px;
+    max-height: 300px;  
+
+}
+
+.conteiner-itens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 330px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 10px;
+}
+
+.item {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+
+}
+
+.item:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   
+}
+
+.item span {
+    flex: 1;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 330px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 10px;   
+    background-color: green;
+    border-radius: 12px;
+}
+
+.btn span{
+    color: white;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.conteiner-placar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 330px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-gap: 10px;
+}
+
+.placar {
+    text-align: center;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns:  1fr;
+
+}
+
+.placar span {
+    flex: 1;
+    color: rgb(32, 30, 30);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
